@@ -1,0 +1,40 @@
+body {
+    background-image: url('../img/minha\ bbzona.jpg');
+    background-size: 100%;
+}
+
+p {
+    background-color:rgba(0,0,0, 0.85);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+#foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#foto img {
+    padding: 5px;
+    width: 360px;
+    height: 220px;
+    border-radius: 20px;
+
+}
+
+#item {
+    background-color: rgba(0,0,0, 0.85);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    flex-direction: column;
+    color: white;
+}
+#item p {
+    font: italic;
+    font-size: 20px;
+}
